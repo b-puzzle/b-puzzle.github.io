@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#e8fbfa">
     <meta name="description" content="Official support and privacy information for Cubie Away: 3D Block Puzzle by bpuzzle.">
-    <title>bpuzzle | Cubie Away</title>
+    <title>bpuzzle | Cubie Away Support</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
     <header class="site-header">
         <div class="site-header__inner">
             <a class="brand" href="index.html" aria-label="bpuzzle home">
@@ -21,21 +24,78 @@
         </div>
     </header>
 
-    <main class="content">
-        <section class="intro">
-            <p class="eyebrow">Mobile game support</p>
-            <h1>Cubie Away: 3D Block Puzzle</h1>
-            <p class="lead">Official privacy and support information for Cubie Away, developed and published by bpuzzle.</p>
-            <div class="actions">
-                <a class="button-link" href="privacy-policy.html">Read Privacy Policy</a>
-                <a class="button-link button-link--secondary" href="mailto:rknkurtulan@gmail.com">Contact Support</a>
-            </div>
+    <main id="main-content" class="content">
+        <section class="hero" aria-labelledby="game-title">
+            <p class="eyebrow">Official game support</p>
+            <h1 id="game-title">Cubie Away: 3D Block Puzzle</h1>
+            <p class="lead">Privacy information, player support, and contact details from bpuzzle.</p>
+
+            <nav class="language-picker" aria-label="Choose language">
+                <span class="language-picker__label">Language</span>
+                <div class="language-links">
+                    <a href="#english" hreflang="en">English</a>
+                    <a href="#turkce" hreflang="tr" lang="tr">Türkçe</a>
+                    <a href="#deutsch" hreflang="de" lang="de">Deutsch</a>
+                    <a href="#espanol" hreflang="es" lang="es">Español</a>
+                </div>
+            </nav>
         </section>
 
-        <section class="support-section" aria-labelledby="support-heading">
-            <h2 id="support-heading">Support</h2>
-            <p>For help with Cubie Away, purchase questions, privacy requests, or technical issues, contact:</p>
-            <p><a href="mailto:rknkurtulan@gmail.com">rknkurtulan@gmail.com</a></p>
+        <div class="language-stack" aria-label="Support information by language">
+            <section id="english" class="language-section" lang="en" aria-labelledby="english-heading">
+                <p class="language-code" aria-hidden="true">EN</p>
+                <div>
+                    <h2 id="english-heading">How can we help?</h2>
+                    <p>For gameplay help, purchase questions, privacy requests, or technical issues, contact bpuzzle. Please include your device model and a short description of the issue. Do not send passwords or payment-card details.</p>
+                    <div class="actions">
+                        <a class="button-link" href="privacy-policy.html#english">Read Privacy Policy</a>
+                        <a class="button-link button-link--secondary" href="mailto:rknkurtulan@gmail.com?subject=Cubie%20Away%20Support">Contact Support</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="turkce" class="language-section" lang="tr" aria-labelledby="turkce-heading">
+                <p class="language-code" aria-hidden="true">TR</p>
+                <div>
+                    <h2 id="turkce-heading">Nasıl yardımcı olabiliriz?</h2>
+                    <p>Oynanış desteği, satın alma soruları, gizlilik talepleri veya teknik sorunlar için bpuzzle ile iletişime geçebilirsiniz. Lütfen cihaz modelinizi ve sorunun kısa bir açıklamasını ekleyin. Parola veya ödeme kartı bilgisi göndermeyin.</p>
+                    <div class="actions">
+                        <a class="button-link" href="privacy-policy.html#turkce">Gizlilik Politikasını Oku</a>
+                        <a class="button-link button-link--secondary" href="mailto:rknkurtulan@gmail.com?subject=Cubie%20Away%20Destek">Desteğe Ulaş</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="deutsch" class="language-section" lang="de" aria-labelledby="deutsch-heading">
+                <p class="language-code" aria-hidden="true">DE</p>
+                <div>
+                    <h2 id="deutsch-heading">Wie können wir helfen?</h2>
+                    <p>Bei Fragen zum Spiel, zu Käufen, zum Datenschutz oder bei technischen Problemen kannst du bpuzzle kontaktieren. Bitte nenne dein Gerätemodell und beschreibe das Problem kurz. Sende keine Passwörter oder vollständigen Zahlungskartendaten.</p>
+                    <div class="actions">
+                        <a class="button-link" href="privacy-policy.html#deutsch">Datenschutzerklärung lesen</a>
+                        <a class="button-link button-link--secondary" href="mailto:rknkurtulan@gmail.com?subject=Cubie%20Away%20Support">Support kontaktieren</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="espanol" class="language-section" lang="es" aria-labelledby="espanol-heading">
+                <p class="language-code" aria-hidden="true">ES</p>
+                <div>
+                    <h2 id="espanol-heading">¿Cómo podemos ayudarte?</h2>
+                    <p>Para obtener ayuda con el juego, compras, solicitudes de privacidad o problemas técnicos, contacta con bpuzzle. Incluye el modelo de tu dispositivo y una breve descripción del problema. No envíes contraseñas ni datos completos de tarjetas de pago.</p>
+                    <div class="actions">
+                        <a class="button-link" href="privacy-policy.html#espanol">Leer la Política de Privacidad</a>
+                        <a class="button-link button-link--secondary" href="mailto:rknkurtulan@gmail.com?subject=Soporte%20de%20Cubie%20Away">Contactar con soporte</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="product-details" aria-labelledby="details-heading">
+            <div>
+                <p class="eyebrow">Product details</p>
+                <h2 id="details-heading">Official contact</h2>
+            </div>
             <dl class="metadata">
                 <dt>Developer</dt>
                 <dd>bpuzzle</dd>
@@ -43,19 +103,16 @@
                 <dd>Cubie Away: 3D Block Puzzle</dd>
                 <dt>Android package</dt>
                 <dd>com.bpuzzle.cubieaway</dd>
+                <dt>Support email</dt>
+                <dd><a href="mailto:rknkurtulan@gmail.com">rknkurtulan@gmail.com</a></dd>
             </dl>
-        </section>
-
-        <section class="support-section" lang="tr" aria-labelledby="destek-heading">
-            <h2 id="destek-heading">Destek</h2>
-            <p>Cubie Away ile ilgili destek, satın alma, gizlilik veya teknik sorunlar için bize ulaşabilirsiniz:</p>
-            <p><a href="mailto:rknkurtulan@gmail.com">rknkurtulan@gmail.com</a></p>
         </section>
     </main>
 
     <footer class="site-footer">
         <div class="site-footer__inner">
             <p>&copy; 2026 bpuzzle. All rights reserved.</p>
+            <a href="privacy-policy.html">Privacy Policy</a>
         </div>
     </footer>
 </body>
